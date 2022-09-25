@@ -1,4 +1,12 @@
-  #logotip{ 
+
+#nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#logotip{ 
         width: 500px;
             float: left;
     }
@@ -86,3 +94,8 @@
         font-size: 28px;
         font-family: Georgia, "Times New Roman", Times, serif;
       }
+@media screen and( min-width: 769px){
+  #nav{
+    flex-direction: row;
+  }
+  
