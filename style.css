@@ -94,8 +94,19 @@
         font-size: 28px;
         font-family: Georgia, "Times New Roman", Times, serif;
       }
+#table{
+  order: 2;
+}
+#form{
+  order: 1;
+}
 @media screen and( min-width: 769px){
   #nav{
     flex-direction: row;
   }
-  
+  #table{
+    order: 1;
+  }
+  #form{
+    order: 2;
+  }
